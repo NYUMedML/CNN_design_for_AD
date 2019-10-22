@@ -1,0 +1,46 @@
+file_name: ./saved_model/1007_pooling_age #loc_constant_lr_age.pth.tar #./saved_model/0811_sheng_pretrained_with_AUC_20.pth.tar
+data:
+  data_root_dir: data/
+  dir_to_scans: /gpfs/data/razavianlab/skynet/alzheimers/adni_pp_all/ADNI_processed/subjects
+  dir_to_tsv: ./datasets/files
+  batch_size: 4
+  val_batch_size: 2
+  workers: 4
+  percentage_usage: 1.0
+exp_name: 1007_pooling_age
+visdom:
+  port: 8064 
+  server: skygpu07 
+model:
+  arch: ours
+  input_channel: 1
+  nhid: 512
+  feature_dim: 1024
+  n_label: 3
+  expansion: 8
+  num_blocks: 0
+  type_name: conv3x3x3
+  norm_type: Instance
+adv_model:
+  nhid: 36
+  out_dim: 12
+mmse_model:
+  nhid: 64
+training_parameters:
+  use_age: False
+  pretrain:  #dir to saved model here
+  max_iter: 16000
+  start_epoch: 0
+  epochs: 200
+  lr: 0.03
+  print_freq: 10
+  max_grad_l2_norm:
+  report_interval: 100
+  snapshot_interval: 1000
+
+optimizer:
+  method: SGD
+  par:
+    lr: 0.01
+    weight_decay: 0.000
+

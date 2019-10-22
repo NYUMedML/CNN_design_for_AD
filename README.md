@@ -34,4 +34,4 @@ The trained best model (with widening factor 8 and adding age) can be found [her
 
 
 ## References
-- S. Liu, C. Yadav, N. Razavian, C. Fernandez-Granda. "On the design of convolutional neural networks for automatic detection of Alzheimer’s disease", in NeurIPS ML4H, 2019.
+- S. Liu, C. Yadav, C. Fernandez-Granda, N. Razavian. "On the design of convolutional neural networks for automatic detection of Alzheimer’s disease", in NeurIPS ML4H, 2019.

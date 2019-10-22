@@ -30,7 +30,7 @@ python main.py
 ```
 
 You can create your own config files and add a **--config** flag to indicate the name of your config files.
-The trained best model (with widening factor 8 and adding age) can be found [here](https://drive.google.com/file/d/1zU21Kin9kXg_qmj7w_u5dGOjXf1D5fa7/view?usp=sharing)
+The trained best model (with widening factor 8 and adding age encodings) can be found [here](https://drive.google.com/file/d/1zU21Kin9kXg_qmj7w_u5dGOjXf1D5fa7/view?usp=sharing)
 
 
 ## References

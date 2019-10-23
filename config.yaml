@@ -1,7 +1,7 @@
-file_name: ./saved_model/1007_pooling_age #loc_constant_lr_age.pth.tar #./saved_model/0811_sheng_pretrained_with_AUC_20.pth.tar
+file_name: ./saved_model/1007_pooling_age
 data:
   data_root_dir: data/
-  dir_to_scans: /gpfs/data/razavianlab/skynet/alzheimers/adni_pp_all/ADNI_processed/subjects
+  dir_to_scans: dir_to_scans
   dir_to_tsv: ./datasets/files
   batch_size: 4
   val_batch_size: 2
@@ -32,7 +32,6 @@ training_parameters:
   max_iter: 16000
   start_epoch: 0
   epochs: 200
-  lr: 0.03
   print_freq: 10
   max_grad_l2_norm:
   report_interval: 100

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # On the design of convolutional neural networks for automatic detection of Alzheimer’s disease
+=======
+# On the design of convolutional neural networks forautomatic detection of Alzheimer’s disease
+>>>>>>> f0548467fea49a0371370a664b6b2b191ce3153e
 This repository contains the code for the paper [On the design of convolutional neural networks for automatic detection of Alzheimer’s disease](). 
 
 ## Requirements
@@ -30,8 +34,16 @@ python main.py
 ```
 
 You can create your own config files and add a **--config** flag to indicate the name of your config files.
+<<<<<<< HEAD
 The trained best model (with widening factor 8 and adding age) can be found [here](https://drive.google.com/file/d/1zU21Kin9kXg_qmj7w_u5dGOjXf1D5fa7/view?usp=sharing)
 
 
 ## References
 - S. Liu, C. Yadav, C. Fernandez-Granda, N. Razavian. "On the design of convolutional neural networks for automatic detection of Alzheimer’s disease", in NeurIPS ML4H, 2019.
+=======
+The trained best model (with widening factor 8 and adding age encodings) can be found [here](https://drive.google.com/file/d/1zU21Kin9kXg_qmj7w_u5dGOjXf1D5fa7/view?usp=sharing)
+
+
+## References
+- S. Liu, C. Yadav, C. Fernandez-Granda, N. Razavian. "On the design of convolutional neural networks for automatic detection of Alzheimer’s disease", in NeurIPS ML4H, 2019.
+>>>>>>> f0548467fea49a0371370a664b6b2b191ce3153e

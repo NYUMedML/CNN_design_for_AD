@@ -12,11 +12,7 @@ In this project, we focus on how to design CNN for Alzheimer's detection. we pro
 Together, these insights yield an increment of approximately 14% in test accuracy over existing models.
 
 This repository contains the code for the paper [On the design of convolutional neural networks for automatic detection of Alzheimer’s disease](). 
-## ADNI dataset
-Here are some examples of scans for each categories in the dataset:
-<img src="data_examples/CN_example.png" width="600" /> 
-<img src="data_examples/MCI_example.png" width="600" /> 
-<img src="data_examples/AD_example.png" width="600" /> 
+
 ## Requirements
 - Python 3.6
 - PyTorch 0.4
@@ -50,6 +46,12 @@ and
 ```
 run_adni_preprocess_test.sh
 ```
+
+## Examples in the preprocessed dataset
+Here are some examples of scans for each categories in our test dataset:
+<img src="data_examples/CN_example.png" width="600" /> 
+<img src="data_examples/MCI_example.png" width="600" /> 
+<img src="data_examples/AD_example.png" width="600" /> 
 
 ## Neural Network Training
 Train the network ADNI dataset:

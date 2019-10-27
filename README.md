@@ -34,12 +34,12 @@ This repository contains the code for the paper [On the design of convolutional 
 
 ## Data Preprocessing
 Data Preprocessing with Clinica:
-1. *Convert data into BIDS format*: please read the docs on [Clinica website](http://www.clinica.run/doc/DatabasesToBIDS/#adni-to-bids), and install required softwares and download the required clinical files. You can find the script we use to run the converter at /datasets/files: 
+1. **Convert data into BIDS format**: please read the docs on [Clinica website](http://www.clinica.run/doc/DatabasesToBIDS/#adni-to-bids), and install required softwares and download the required clinical files. You can find the script we use to run the converter at /datasets/files: 
 ```
 run_convert.sh
 ```
 
-2. *preprocess converted and splitted data*: you can refer our scripts tat /datasets/files. For training data, refer:
+2. **preprocess converted and splitted data**: you can refer our scripts tat /datasets/files. For training data, refer:
 ```
 run_adni_preprocess.sh
 ```

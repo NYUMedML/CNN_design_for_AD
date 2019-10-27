@@ -20,6 +20,11 @@ Here are some examples of scans for each categories in the dataset:
 - numpy
 - visdom
 
+## Download ADNI data
+1. Request approval at [ADNI website](http://adni.loni.usc.edu/data-samples/access-data/)
+2. Download both the scans and the clinical data. From the main page click on `PROJECTS` and `ADNI`. To download the imaging data, click on Download and choose Image collections. In the 'Advanced search' tab, untick `ADNI 3` and tick `MRI` to download all the MR images.
+3. In the Advanced search results tab, click Select `All` and `Add To Collection`. Finally, in the Data Collection tab, select the collection you just created, tick `All` and click on `Advanced download`. We advise you to group files as 10 zip files. To download the clinical data, click on Download and choose Study Data. Select all the csv files which are present in ALL by ticking Select ALL tabular data and click Download.
+
 ## Data Preprocessing
 Data Preprocessing with Clinica:
 1. To convert data into BIDS format, please read the docs on Clinica [website](http://www.clinica.run), install required softwares and download the required clinical files. You can find the script in /datasets/files: 

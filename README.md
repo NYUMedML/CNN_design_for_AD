@@ -3,7 +3,12 @@
 
 
 ## Introduction
-In this project, we focus on how to design CNN for Alzheimer's detection. we provide evidence that (1) instance normalization outperforms batch normalization, (2) early spatial downsampling negatively affects performance, (3) widening the model brings consistent gains while increasing the depth does not, and (4) incorporating age information yields moderate improvement. Together, these insights yield an increment of approximately 14% in test accuracy over existing models.
+In this project, we focus on how to design CNN for Alzheimer's detection. we provide evidence that 
+* instance normalization outperforms batch normalization  
+* early spatial downsampling negatively affects performance
+* widening the model brings consistent gains while increasing the depth does not
+* incorporating age information yields moderate improvement. 
+Together, these insights yield an increment of approximately 14% in test accuracy over existing models.
 
 This repository contains the code for the paper [On the design of convolutional neural networks for automatic detection of Alzheimer’s disease](). 
 ## ADNI dataset

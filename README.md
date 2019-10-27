@@ -1,7 +1,7 @@
 # On the design of convolutional neural networks for automatic detection of Alzheimer’s disease
 
 This repository contains the code for the paper [On the design of convolutional neural networks for automatic detection of Alzheimer’s disease](). 
-## ADNI data
+## ADNI dataset
 Here are some examples of scans for each categories in the dataset:
 <img src="data_examples/CN_example.png" width="600" /> 
 <img src="data_examples/MCI_example.png" width="600" /> 
@@ -38,6 +38,15 @@ You can create your own config files and add a **--config** flag to indicate the
 
 The trained best model (with widening factor 8 and adding age) can be found [here](https://drive.google.com/file/d/1zU21Kin9kXg_qmj7w_u5dGOjXf1D5fa7/view?usp=sharing). We also provide the [link](https://drive.google.com/file/d/1KurgyjQP-KReEO0gf31xxjwE5R-xuSRB/view?usp=sharing) to download the template we used for preprocessing. 
 
+
+## Results
+| Method             | Acc.        | Balanced Acc. | Micro-AUC  | Macro-AUC |
+| ----------------- | ----------- | ----------- | -----------  | ----------- | 
+| X 1             | 56.4%      | 54.8%           | 74.2%       | 75.6%       |
+| X 2             | 58.4%      | 57.8%           | 77.2%       | 76.6%       |
+| X 4             | 63.2%      | 63.3%           | 80.5%       | 77.0%       |
+| X 8             | 66.9%      | 67.9%           | 82.0%       | 78.5%       |
+| X 8 + age       | 68.2%      | 70.0%           | 82.0%       | 80.0%       |
 
 
 ## References

@@ -27,7 +27,7 @@ Here are some examples of scans for each categories in the dataset:
 
 ## Data Preprocessing
 Data Preprocessing with Clinica:
-1. To convert data into BIDS format, please read the docs on Clinica [website](http://www.clinica.run), install required softwares and download the required clinical files. You can find the script in /datasets/files: 
+1. To convert data into BIDS format, please read the docs on [Clinica website](http://www.clinica.run/doc/DatabasesToBIDS/#adni-to-bids), install required softwares and download the required clinical files. You can find the script in /datasets/files: 
 ```
 run_convert.sh
 ```

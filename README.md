@@ -12,10 +12,11 @@ In this project, we focus on how to design CNN for Alzheimer's detection. we pro
 Together, these insights yield an increment of approximately 14% in test accuracy over existing models.
 
 This repository contains the code for the paper [On the design of convolutional neural networks for automatic detection of Alzheimer’s disease](). 
-
+<p float="left">
 <img src="data_examples/visualization_01.png" width="200" /> 
 <img src="data_examples/visualization_02.png" width="200" /> 
 <img src="data_examples/visualization_03.png" width="200" /> 
+</p>
 ## Requirements
 - Python 3.6
 - PyTorch 0.4

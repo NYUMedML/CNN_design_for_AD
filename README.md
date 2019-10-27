@@ -27,14 +27,22 @@ Here are some examples of scans for each categories in the dataset:
 
 ## Data Preprocessing
 Data Preprocessing with Clinica:
-1. To convert data into BIDS format, please read the docs on [Clinica website](http://www.clinica.run/doc/DatabasesToBIDS/#adni-to-bids), install required softwares and download the required clinical files. You can find the script in /datasets/files: 
+1. *Convert data into BIDS format*: please read the docs on [Clinica website](http://www.clinica.run/doc/DatabasesToBIDS/#adni-to-bids), and install required softwares and download the required clinical files. You can find the script we use to run the converter at /datasets/files: 
 ```
 run_convert.sh
 ```
 
-2. To preprocess converted splitted data, use the files in /datasets/files. For training data, refer:
+2. *preprocess converted and splitted data*: you can refer our scripts tat /datasets/files. For training data, refer:
 ```
 run_adni_preprocess.sh
+```
+For val and test refer:
+```
+run_adni_preprocess_val.sh
+```
+and 
+```
+run_adni_preprocess_test.sh
 ```
 
 ## Neural Network Training

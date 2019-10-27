@@ -75,7 +75,7 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 
 
 ## Results
-<p align="center">
+<center>
 | Method             | Acc.        | Balanced Acc. | Micro-AUC  | Macro-AUC |
 | ----------------- | ----------- | ----------- | -----------  | ----------- | 
 | ResNet-18 3D    | 52.4%      | 53.1%           | -           | -           |
@@ -85,7 +85,7 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 | X 4             | 63.2%      | 63.3%           | 80.5%       | 77.0%       |
 | X 8             | 66.9%      | 67.9%           | 82.0%       | 78.5%       |
 | X 8 + age       | 68.2%      | 70.0%           | 82.0%       | 80.0%       |
-</p>
+</center>
 
 ## References
 - S. Liu, C. Yadav, C. Fernandez-Granda, N. Razavian. "On the design of convolutional neural networks for automatic detection of Alzheimer’s disease", in NeurIPS ML4H, 2019.

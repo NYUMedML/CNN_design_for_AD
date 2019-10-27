@@ -54,9 +54,12 @@ run_adni_preprocess_test.sh
 
 ## Examples in the preprocessed dataset
 Here are some examples of scans for each categories in our test dataset:
+
+<p align="center">
 <img src="data_examples/CN_example.png" width="600" /> 
 <img src="data_examples/MCI_example.png" width="600" /> 
 <img src="data_examples/AD_example.png" width="600" /> 
+</p>
 
 ## Neural Network Training
 Train the network ADNI dataset:

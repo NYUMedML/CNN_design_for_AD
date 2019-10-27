@@ -2,8 +2,10 @@
 
 This repository contains the code for the paper [On the design of convolutional neural networks for automatic detection of Alzheimer’s disease](). 
 ## ADNI data
-Here are few examples of scans in the dataset:
-<img src="data_examples/CN_example.png" width="800" /> 
+Here are some examples of scans for each categories in the dataset:
+<img src="data_examples/CN_example.png" width="600" /> 
+<img src="data_examples/MCI_example.png" width="600" /> 
+<img src="data_examples/AD_example.png" width="600" /> 
 ## Requirements
 - Python 3.6
 - PyTorch 0.4

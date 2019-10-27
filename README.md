@@ -8,6 +8,7 @@ In this project, we focus on how to design CNN for Alzheimer's detection. we pro
 * early spatial downsampling negatively affects performance
 * widening the model brings consistent gains while increasing the depth does not
 * incorporating age information yields moderate improvement. 
+
 Together, these insights yield an increment of approximately 14% in test accuracy over existing models.
 
 This repository contains the code for the paper [On the design of convolutional neural networks for automatic detection of Alzheimer’s disease](). 

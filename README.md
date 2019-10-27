@@ -42,6 +42,8 @@ The trained best model (with widening factor 8 and adding age) can be found [her
 ## Results
 | Method             | Acc.        | Balanced Acc. | Micro-AUC  | Macro-AUC |
 | ----------------- | ----------- | ----------- | -----------  | ----------- | 
+| ResNet-18 3D    | 52.4%      | 53.1%           | -           | -           |
+| AlexNet 3D      | 57.2%      | 56.2%           | 75.1%       | 74.2%       |
 | X 1             | 56.4%      | 54.8%           | 74.2%       | 75.6%       |
 | X 2             | 58.4%      | 57.8%           | 77.2%       | 76.6%       |
 | X 4             | 63.2%      | 63.3%           | 80.5%       | 77.0%       |

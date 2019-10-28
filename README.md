@@ -27,6 +27,9 @@ This repository contains the code for the paper [On the design of convolutional 
 - numpy
 - visdom
 
+## License
+This repository is licensed under the terms of the GNU AGPLv3 license.
+
 ## Download ADNI data
 1. Request approval and register at [ADNI website](http://adni.loni.usc.edu/data-samples/access-data/)
 2. Download both the scans and the clinical data. From the main page click on `PROJECTS` and `ADNI`. To download the imaging data, click on `Download` and choose `Image collections`. In the `Advanced search` tab, untick `ADNI 3` and tick `MRI` to download all the MR images.

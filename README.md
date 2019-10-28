@@ -18,7 +18,7 @@ This repository contains the code for the paper [On the design of convolutional 
 <img src="data_examples/visualization_03.png" width="200" /> 
 </p>
 
-## Requirements
+## Prerequisites
 - Python 3.6
 - PyTorch 0.4
 - torchvision

@@ -39,7 +39,7 @@ Data Preprocessing with Clinica:
 run_convert.sh
 ```
 
-2. **preprocess converted and splitted data**: you can refer our scripts tat /datasets/files. For training data, refer:
+2. **preprocess converted and splitted data**: you can refer our scripts at /datasets/files. For training data, refer:
 ```
 run_adni_preprocess.sh
 ```

@@ -85,7 +85,7 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 | X 2             | 58.4%      | 57.8%           | 77.2%       | 76.6%       |
 | X 4             | 63.2%      | 63.3%           | 80.5%       | 77.0%       |
 | X 8             | 66.9%      | 67.9%           | 82.0%       | 78.5%       |
-| X 8 + age       | 68.2%      | 70.0%           | 82.0%       | 80.0%       |
+| **X 8 + age**       | 68.2%      | 70.0%           | 82.0%       | 80.0%       |
 
 </center>
 

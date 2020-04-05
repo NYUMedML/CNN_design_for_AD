@@ -11,7 +11,7 @@ In this project, we focus on how to design CNN for Alzheimer's detection. we pro
 
 Together, these insights yield an increment of approximately 14% in test accuracy over existing models.
 
-This repository contains the code for the paper [On the design of convolutional neural networks for automatic detection of Alzheimer’s disease](https://arxiv.org/pdf/1911.03740.pdf). Author: [Sheng Liu](https://cims.nyu.edu/~sl5924/index.html), Chhavi Yadav, Carlos Fernandez-Granda, Narges Razavian.
+This repository contains the code for the paper [On the design of convolutional neural networks for automatic detection of Alzheimer’s disease](https://arxiv.org/pdf/1911.03740.pdf). Author: Sheng Liu, Chhavi Yadav, Carlos Fernandez-Granda, Narges Razavian.
 <p float="left" align="center">
 <img src="data_examples/visualization_02.png" width="200" /> 
 <img src="data_examples/visualization_01.png" width="200" /> 

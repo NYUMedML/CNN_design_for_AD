@@ -116,8 +116,10 @@ curve for classifcation performance based on the  learning model vs the ROI-volu
 for ADNI held-out set and NACC external validation set. Deep learning model outperforms ROI-volume/
 thickness-based model in all classes. Please refer [paper](https://www.nature.com/articles/s41598-022-20674-x) for more details.
 
-  
-  
+<p float="left" align="center">
+<img src="AD_progression.png" width="500" /> 
+<figcaption align="center">  
+Figure 3: Progression analysis for MCI subjects. The features extracted by the deep-learning model may be better predictive of the transition.  
 
 <center>
 

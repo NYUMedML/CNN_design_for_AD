@@ -119,7 +119,7 @@ thickness-based model in all classes. Please refer [paper](https://www.nature.co
 <p float="left" align="center">
 <img src="AD_progression_new.png" width="800" /> 
 <figcaption align="center">  
-Figure 3: Progression analysis for MCI subjects. The features extracted by the deep-learning model may be better predictive of the transition.  
+Figure 2: Progression analysis for MCI subjects. The features extracted by the deep-learning model may be better predictive of the transition.  
 
 <center>
 

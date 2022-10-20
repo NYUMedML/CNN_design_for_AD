@@ -1,6 +1,10 @@
 # On the design of convolutional neural networks for automatic detection of Alzheimer’s disease
 
+#Update
+We have a new [paper](https://www.nature.com/articles/s41598-022-20674-x) on deep learning for dementia.
+In this new paper, we compare the deep learning model with a volume/thickness model. The volume and thickness data are extracted using the Freesurfer with quality control done by radiologist. 
 
+If you would like to access those data, please download it from our [new repo](https://github.com/NYUMedML/DeepDementia/tree/main/Data).
 
 ## Introduction
 In this project, we focus on how to design CNN for Alzheimer's detection. we provide evidence that 
@@ -93,4 +97,25 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 </center>
 
 ## References
-- Sheng Liu, Chhavi Yadav, Carlos Fernandez-Granda, Narges Razavian. "On the design of convolutional neural networks for automatic detection of Alzheimer’s disease", in NeurIPS ML4H, 2019.
+'''
+@inproceedings{liu2020design,
+  title={On the design of convolutional neural networks for automatic detection of Alzheimer’s disease},
+  author={Liu, Sheng and Yadav, Chhavi and Fernandez-Granda, Carlos and Razavian, Narges},
+  booktitle={Machine Learning for Health Workshop},
+  pages={184--201},
+  year={2020},
+  organization={PMLR}
+}
+'''
+'''
+@article{liu2022generalizable,
+  title={Generalizable deep learning model for early Alzheimer’s disease detection from structural MRIs},
+  author={Liu, Sheng and Masurkar, Arjun V and Rusinek, Henry and Chen, Jingyun and Zhang, Ben and Zhu, Weicheng and Fernandez-Granda, Carlos and Razavian, Narges},
+  journal={Scientific Reports},
+  volume={12},
+  number={1},
+  pages={1--12},
+  year={2022},
+  publisher={Nature Publishing Group}
+ '''
+}

@@ -15,6 +15,14 @@ In this project, we focus on how to design CNN for Alzheimer's detection. we pro
 * early spatial downsampling negatively affects performance
 * widening the model brings consistent gains while increasing the depth does not
 * incorporating age information yields moderate improvement. 
+  
+Compare with the volume/thickness model, the deep-learning model is
+  * accurate
+  * significantly faster than the volume/thickness model in which the volumes and thickness need to be extracted beforehand. 
+  * can also be used to forecast progression:
+  * relies on a wide range of regions associated with Alzheimer's disease. 
+  * can automatically learn to identify imaging biomarkers that are predictive of Alzheimer's disease, and leverage them to achieve accurate early detection of the disease.
+
 
 Together, these insights yield an increment of approximately 14% in test accuracy over existing models.
 <!--   

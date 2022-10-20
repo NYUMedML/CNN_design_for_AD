@@ -7,6 +7,8 @@ If you would like to access the volume and thickness data as well as the subject
 <img src="overview.png" width="800" /> 
 <figcaption align="center">
 Figure: Overview of the deep learning framework and performance for Alzheimer’s automatic diagnosis. (a) Deep learning framework used for automatic diagnosis. 
+  
+Contact: [Sheng Liu](https://shengliu66.github.io/)
 
 
 ## Introduction

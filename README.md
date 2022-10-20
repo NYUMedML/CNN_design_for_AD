@@ -1,5 +1,4 @@
-# On the design of convolutional neural networks for automatic detection of Alzheimer’s disease
-
+# Generalizable deep learning model for early Alzheimer’s disease detection from structural MRIs
 ## Update
 We published a new [paper](https://www.nature.com/articles/s41598-022-20674-x) on deep learning for dementia at Nature Scientific Reports.
 In the new paper, we compared the deep learning model with volume/thickness models. The volume and thickness data are extracted using the Freesurfer and quality controled by radiologists. 

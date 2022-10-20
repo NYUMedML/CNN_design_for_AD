@@ -113,8 +113,10 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 Table1: Classifcation performance in ADNI held-out set and an external validation set. Area under ROC
 curve for classifcation performance based on the  learning model vs the ROI-volume/thickness model,
 for ADNI held-out set and NACC external validation set. Deep learning model outperforms ROI-volume/
-thickness-based model in all classes. Please refer [paper]([http://proceedings.mlr.press/v116/liu20a](https://www.nature.com/articles/s41598-022-20674-x)) for more details.
+thickness-based model in all classes. Please refer [paper]([http://proceedings.mlr.press/v116/liu20a](https://www.nature.com/articles/s41598-022-20674-x) for more details.
 
+  
+  
 
 <center>
 

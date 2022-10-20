@@ -6,9 +6,9 @@ In the new paper, we compared the deep learning model with volume/thickness mode
 
 If you would like to access the volume and thickness data, please download it from our [new repo](https://github.com/NYUMedML/DeepDementia/).
 <p float="left" align="center">
-<img src="all_resized.gif" width="500" /> 
+<img src="overview.png" width="800" /> 
 <figcaption align="center">
-Figure 1. Visualization of the aggregated importance of each voxel (in yellow) in the deep learning model when classifying subjects into Cognitive Normal, Mild Cognitive Impairement, and Alzheimer's Disease. 
+Figure: Overview of the deep learning framework and performance for Alzheimer’s automatic diagnosis. (a) Deep learning framework used for automatic diagnosis. 
 
 
 ## Introduction
@@ -26,6 +26,12 @@ This repository contains the code for the paper [On the design of convolutional 
 <img src="data_examples/visualization_01.png" width="200" /> 
 <img src="data_examples/visualization_03.png" width="200" /> 
 </p>
+
+<p float="left" align="center">
+<img src="all_resized.gif" width="500" /> 
+<figcaption align="center">
+Figure 1. Visualization of the aggregated importance of each voxel (in yellow) in the deep learning model when classifying subjects into Cognitive Normal, Mild Cognitive Impairement, and Alzheimer's Disease. 
+
 
 ## Prerequisites
 - Python 3.6

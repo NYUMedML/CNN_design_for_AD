@@ -2,7 +2,7 @@
 This repository contains code for a medical [paper](https://www.nature.com/articles/s41598-022-20674-x) and a machine learning [paper](http://proceedings.mlr.press/v116/liu20a) on deep learning for dementia.
 In the medical [paper](https://www.nature.com/articles/s41598-022-20674-x), we compared the deep learning model with volume/thickness models. The volume and thickness data are extracted using the Freesurfer and quality controled by radiologists. 
 
-If you would like to access the volume and thickness data, please download it from the [/Data](https://github.com/NYUMedML/CNN_design_for_AD/tree/master/Data) folder.
+If you would like to access the volume and thickness data as well as the subject and scan ID, please download it from the [/Data](https://github.com/NYUMedML/CNN_design_for_AD/tree/master/Data) folder.
 <p float="left" align="center">
 <img src="overview.png" width="800" /> 
 <figcaption align="center">

@@ -110,6 +110,7 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 | Mild Cognitive Impairment       | 62.59     | 56.95          | 62.45       | 57.88       |
 | Alzheimer’s Disease Dementia    | 89.21     | 85.57          | 89.21       | 81.03       |
 </center>
+  
 Table 1: Classifcation performance in ADNI held-out set and an external validation set. Area under ROC
 curve for classifcation performance based on the  learning model vs the ROI-volume/thickness model,
 for ADNI held-out set and NACC external validation set. Deep learning model outperforms ROI-volume/

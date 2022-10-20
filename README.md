@@ -17,12 +17,12 @@ In this project, we focus on how to design CNN for Alzheimer's detection. we pro
 * incorporating age information yields moderate improvement. 
 
 Together, these insights yield an increment of approximately 14% in test accuracy over existing models.
-  
+<!--   
 <p float="left" align="center">
 <img src="data_examples/visualization_02.png" width="200" /> 
 <img src="data_examples/visualization_01.png" width="200" /> 
 <img src="data_examples/visualization_03.png" width="200" /> 
-</p>
+</p> -->
 
 <p float="left" align="center">
 <img src="all_resized.gif" width="500" /> 

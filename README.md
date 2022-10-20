@@ -1,6 +1,6 @@
 # On the design of convolutional neural networks for automatic detection of Alzheimer’s disease
 
-#Update
+## Update
 We have a new [paper](https://www.nature.com/articles/s41598-022-20674-x) on deep learning for dementia.
 In this new paper, we compare the deep learning model with a volume/thickness model. The volume and thickness data are extracted using the Freesurfer with quality control done by radiologist. 
 
@@ -117,5 +117,5 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
   pages={1--12},
   year={2022},
   publisher={Nature Publishing Group}
- '''
 }
+'''

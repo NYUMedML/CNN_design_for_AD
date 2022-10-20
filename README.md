@@ -124,7 +124,7 @@ into two groups based on the classifcation results of the deep learning model fr
 as MCI: group A if the prediction is AD, and group B if it is not. The graph shows the fraction of subjects that
 progressed to AD at diferent months following the frst scan diagnosed as MCI for both groups. Subjects in
 group A progress to AD at a signifcantly faster rate, suggesting that the features extracted by the deep-learning
-model may be predictive of the transition. The features extracted by the deep-learning model may be better predictive of the transition.  
+model may be predictive of the transition. 
 
 <center>
 

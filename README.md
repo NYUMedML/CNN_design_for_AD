@@ -1,7 +1,6 @@
 # Generalizable deep learning model for early Alzheimer’s disease detection from structural MRIs
-## Update
-We published a new [paper](https://www.nature.com/articles/s41598-022-20674-x) on deep learning for dementia at Nature Scientific Reports.
-In the new paper, we compared the deep learning model with volume/thickness models. The volume and thickness data are extracted using the Freesurfer and quality controled by radiologists. 
+This is the repor for [paper](https://www.nature.com/articles/s41598-022-20674-x) on deep learning for dementia at Nature Scientific Reports.
+In the paper, we compared the deep learning model with volume/thickness models. The volume and thickness data are extracted using the Freesurfer and quality controled by radiologists. 
 
 If you would like to access the volume and thickness data, please download it from [here](https://github.com/NYUMedML/DeepDementia/).
 <p float="left" align="center">

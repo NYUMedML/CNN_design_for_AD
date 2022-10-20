@@ -105,8 +105,7 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 
 | Dataset           | ADNI held-out        | ADNI held-out          | NACC external validation | NACC external validation |
 | ----------------- | -------------------- | ---------------------- | -----------------------  | ------------------------ | 
-|                   | Deep Learning model  | Volume/thickness model | Deep Learning model      | Volume/thickness model   |
-| ----------------- | -------------------- | ---------------------- | -----------------------  | ------------------------ | 
+|   Model           | Deep Learning model  | Volume/thickness model | Deep Learning model      | Volume/thickness model   |
 | Cognitively Normal              | 87.59     | 84.45          | 85.12       | 80.77       |
 | Mild Cognitive Impairment       | 62.59     | 56.95          | 62.45       | 57.88       |
 | Alzheimer’s Disease Dementia    | 89.21     | 85.57          | 89.21       | 81.03       |

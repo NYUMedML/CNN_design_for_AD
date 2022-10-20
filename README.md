@@ -1,6 +1,6 @@
 # Generalizable deep learning model for early Alzheimer’s disease detection from structural MRIs
 This repository contains code for a medical [paper](https://www.nature.com/articles/s41598-022-20674-x) and a machine learning [paper](http://proceedings.mlr.press/v116/liu20a) on deep learning for dementia.
-In the medical [paper](https://www.nature.com/articles/s41598-022-20674-x), we compared the deep learning model with volume/thickness models. The volume and thickness data are extracted using the Freesurfer and quality controled by radiologists. 
+In the medical [paper](https://www.nature.com/articles/s41598-022-20674-x), we compared the deep learning model with volume/thickness models on external independent cohort from [NACC](https://naccdata.org/). The volume and thickness data are extracted using the Freesurfer and quality controled by radiologists. 
 
 If you would like to access the volume and thickness data as well as the subject and scan ID, please download it from the [/Data](https://github.com/NYUMedML/CNN_design_for_AD/tree/master/Data) folder.
 <p float="left" align="center">
@@ -103,6 +103,24 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 ## Results
 <center>
 
+| Dataset           | ADNI held-out        | ADNI held-out          | NACC external validation | NACC external validation |
+| ----------------- | -------------------- | ---------------------- | -----------------------  | ------------------------ | 
+|                   | Deep Learning model  | Volume/thickness model | Deep Learning model      | Volume/thickness model   |
+| ----------------- | -------------------- | ---------------------- | -----------------------  | ------------------------ | 
+| Cognitively Normal              | 87.59     | 84.45          | 85.12       | 80.77       |
+| Mild Cognitive Impairment       | 62.59     | 56.95          | 62.45       | 57.88       |
+| Alzheimer’s Disease Dementia    | 89.21     | 85.57          | 89.21       | 81.03       |
+Classifcation performance in ADNI held-out set and an external validation set. Area under ROC
+curve for classifcation performance based on the  learning model vs the ROI-volume/thickness model,
+for ADNI held-out set and NACC external validation set. Deep learning model outperforms ROI-volume/
+thickness-based model in all classes.
+</center>
+
+
+
+
+<center>
+
 | Method             | Acc.        | Balanced Acc. | Micro-AUC  | Macro-AUC |
 | ----------------- | ----------- | ----------- | -----------  | ----------- | 
 | ResNet-18 3D    | 52.4%      | 53.1%           | -           | -           |
@@ -117,16 +135,6 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 
 ## References
 ```
-@inproceedings{liu2020design,
-  title={On the design of convolutional neural networks for automatic detection of Alzheimer’s disease},
-  author={Liu, Sheng and Yadav, Chhavi and Fernandez-Granda, Carlos and Razavian, Narges},
-  booktitle={Machine Learning for Health Workshop},
-  pages={184--201},
-  year={2020},
-  organization={PMLR}
-}
-```
-```
 @article{liu2022generalizable,
   title={Generalizable deep learning model for early Alzheimer’s disease detection from structural MRIs},
   author={Liu, Sheng and Masurkar, Arjun V and Rusinek, Henry and Chen, Jingyun and Zhang, Ben and Zhu, Weicheng and Fernandez-Granda, Carlos and Razavian, Narges},
@@ -136,5 +144,15 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
   pages={1--12},
   year={2022},
   publisher={Nature Publishing Group}
+}
+```
+```
+@inproceedings{liu2020design,
+  title={On the design of convolutional neural networks for automatic detection of Alzheimer’s disease},
+  author={Liu, Sheng and Yadav, Chhavi and Fernandez-Granda, Carlos and Razavian, Narges},
+  booktitle={Machine Learning for Health Workshop},
+  pages={184--201},
+  year={2020},
+  organization={PMLR}
 }
 ```

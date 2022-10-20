@@ -97,7 +97,7 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 </center>
 
 ## References
-'''
+```
 @inproceedings{liu2020design,
   title={On the design of convolutional neural networks for automatic detection of Alzheimer’s disease},
   author={Liu, Sheng and Yadav, Chhavi and Fernandez-Granda, Carlos and Razavian, Narges},
@@ -106,8 +106,8 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
   year={2020},
   organization={PMLR}
 }
-'''
-'''
+```
+```
 @article{liu2022generalizable,
   title={Generalizable deep learning model for early Alzheimer’s disease detection from structural MRIs},
   author={Liu, Sheng and Masurkar, Arjun V and Rusinek, Henry and Chen, Jingyun and Zhang, Ben and Zhu, Weicheng and Fernandez-Granda, Carlos and Razavian, Narges},
@@ -118,4 +118,4 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
   year={2022},
   publisher={Nature Publishing Group}
 }
-'''
+```

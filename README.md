@@ -119,7 +119,12 @@ thickness-based model in all classes. Please refer [paper](https://www.nature.co
 <p float="left" align="center">
 <img src="AD_progression_new.png" width="800" /> 
 <figcaption align="center">  
-Figure: Progression analysis for MCI subjects. The features extracted by the deep-learning model may be better predictive of the transition.  
+Figure: Progression analysis for MCI subjects. Te subjects in the ADNI test set are divided
+into two groups based on the classifcation results of the deep learning model from their frst scan diagnosed
+as MCI: group A if the prediction is AD, and group B if it is not. Te graph shows the fraction of subjects that
+progressed to AD at diferent months following the frst scan diagnosed as MCI for both groups. Subjects in
+group A progress to AD at a signifcantly faster rate, suggesting that the features extracted by the deep-learning
+model may be predictive of the transition. The features extracted by the deep-learning model may be better predictive of the transition.  
 
 <center>
 

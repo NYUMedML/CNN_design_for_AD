@@ -110,10 +110,10 @@ We provide the evaluation code in **Model_eval.ipynb**, where you can load and e
 | Mild Cognitive Impairment       | 62.59     | 56.95          | 62.45       | 57.88       |
 | Alzheimer’s Disease Dementia    | 89.21     | 85.57          | 89.21       | 81.03       |
 </center>
-Table1: Classifcation performance in ADNI held-out set and an external validation set. Area under ROC
+Table 1: Classifcation performance in ADNI held-out set and an external validation set. Area under ROC
 curve for classifcation performance based on the  learning model vs the ROI-volume/thickness model,
 for ADNI held-out set and NACC external validation set. Deep learning model outperforms ROI-volume/
-thickness-based model in all classes. Please refer [paper]([http://proceedings.mlr.press/v116/liu20a](https://www.nature.com/articles/s41598-022-20674-x) for more details.
+thickness-based model in all classes. Please refer [paper](https://www.nature.com/articles/s41598-022-20674-x) for more details.
 
   
   
@@ -131,8 +131,12 @@ thickness-based model in all classes. Please refer [paper]([http://proceedings.m
 | **X 8 + age**       | 68.2%      | 70.0%           | 82.0%       | 80.0%       |
 
 </center>
-Table2: Classifcation performance in ADNI held-out with different neural network architectures. Please refer [paper](http://proceedings.mlr.press/v116/liu20a) for more details.
+  
+Table 2: Classifcation performance in ADNI held-out with different neural network architectures. Please refer [paper](http://proceedings.mlr.press/v116/liu20a) for more details.
+  
+  
 ## References
+  
 ```
 @article{liu2022generalizable,
   title={Generalizable deep learning model for early Alzheimer’s disease detection from structural MRIs},
@@ -145,6 +149,7 @@ Table2: Classifcation performance in ADNI held-out with different neural network
   publisher={Nature Publishing Group}
 }
 ```
+  
 ```
 @inproceedings{liu2020design,
   title={On the design of convolutional neural networks for automatic detection of Alzheimer’s disease},

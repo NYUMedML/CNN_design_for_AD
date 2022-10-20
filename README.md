@@ -4,7 +4,12 @@
 We published a new [paper](https://www.nature.com/articles/s41598-022-20674-x) on deep learning for dementia at Nature Scientific Reports.
 In the new paper, we compare the deep learning model with a volume/thickness model. The volume and thickness data are extracted using the Freesurfer with quality control done by radiologist. 
 
-If you would like to access the volume and thickness data, please download it from our [new repo](https://github.com/NYUMedML/DeepDementia/tree/main/Data).
+If you would like to access the volume and thickness data, please download it from our [new repo](https://github.com/NYUMedML/DeepDementia/).
+
+<p float="left" align="center">
+<img src="all_resized.gif" width="500" /> 
+<figcaption align="center">
+
 
 ## Introduction
 In this project, we focus on how to design CNN for Alzheimer's detection. we provide evidence that 
